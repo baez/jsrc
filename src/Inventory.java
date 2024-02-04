@@ -31,18 +31,12 @@ public class Inventory
     {
         for(int i = 0; i < this.count; i++)
         {
-            if (this.guitars[i].getKey() == key)
+            if (this.guitars[i].getKey().equals(key))
             {
                 return this.guitars[i];
             }
         }
         
         return null;
-    }
-
-    public static void main(String[] args)
-    {
-        System.out.println("test");
-
     }
 }

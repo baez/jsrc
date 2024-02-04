@@ -1,23 +1,15 @@
 package src;
 
-public class Bass implements IGuitar
+public class Bass extends AbstractGuitar
 {
-    private String name;
-    private int quantity;
-
-    public Bass(String name)
+    public Bass(String name, int quantity)
     {
-        this.name = name;
+        super(name, quantity);
         this.quantity = 0;
     }
 
     public String getKey()
     {
         return this.name;
-    }
-    
-    public Boolean isInStock()
-    {
-        return this.quantity > 0;
-    }
+    }    
 }

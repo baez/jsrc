@@ -1,17 +1,20 @@
 package src;
 
-public class AccousticGuitar implements IGuitar {
+public class AccousticGuitar extends AbstractGuitar 
+{
+    private int numberOfStrings;
 
-    public AccousticGuitar(String name)
+    public AccousticGuitar(String name, int quantity, int numberOfStrings)
     {
-        super(name)
+        super(name, quantity);
+        this.numberOfStrings = numberOfStrings;
+    }
+
+    public int getNumbeString() {
+        return this.numberOfStrings;
     }
 
     public String getKey() {
-        throw new UnsupportedOperationException("Unimplemented method 'getKey'");
-    }
-
-    public Boolean isInStock() {
-        throw new UnsupportedOperationException("Unimplemented method 'isInStock'");
+        return super.getKey() + "-" + this.numberOfStrings;
     }
 }
