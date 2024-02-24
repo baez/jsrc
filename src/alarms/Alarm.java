@@ -17,9 +17,9 @@ We need to implement two features
 
 public class Alarm {
 
-    private boolean active;
+    protected boolean active;
 
-    private final String message;
+    protected String message;
 
     private LocalDateTime snoozeUntil;
 

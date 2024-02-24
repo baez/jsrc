@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.awt.*;
 
-class SnoozableAlarm extends Alarm {
+class SnoozableAlarm extends Alarm implements Helper {
     private LocalDateTime snoozeUntil;
 	private boolean isSnoozing;
 

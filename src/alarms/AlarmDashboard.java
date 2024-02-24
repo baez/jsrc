@@ -1,5 +1,15 @@
 public class AlarmDashboard {
-	
+
+	// Add alarm volume to "all alarms"
+	// Alarm volume will have 5 different levels:
+	// Levels: Silenced, Low, Medium, High, Very High
+	// Implement this feature into the alarm design
+	// 
+	// Add three method for all alarms:
+	// 1 - isQuiet() which returns true if the alarm is quiet and false otherwise
+	// 2 - getVolume() returns the current volume
+    // 3 - setVolume() sets the alarm volume
+
     public static void main(String[] args) {
 			
 		// String message = "Temperature too high";
@@ -43,4 +53,9 @@ public class AlarmDashboard {
 		String report = alarm.getReport();
 		System.out.println(report);
 	}
+
+	// Write a static method that accepts an array of alarms and
+	// prints all the reports one by one for each member of
+	// the array
+	
 }

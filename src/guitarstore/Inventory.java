@@ -4,17 +4,17 @@ public class Inventory
     private int count;
     private int size;
     
-    private IGuitar[] guitars;
+    private IInventoryItem[] guitars;
     
     public Inventory(int size)
     {
         this.count = 0;
         this.size = size;
         
-        this.guitars = new IGuitar[size];
+        this.guitars = new IInventoryItem[size];
     }
 
-    public OperationResult add(IGuitar g)
+    public OperationResult add(IInventoryItem g)
     {
         if (this.count >= this.size)
         {
@@ -27,7 +27,7 @@ public class Inventory
         return OperationResult.SUCCESS;
     }
     
-    public IGuitar search(String key)
+    public IInventoryItem search(String key)
     {
         for(int i = 0; i < this.count; i++)
         {
