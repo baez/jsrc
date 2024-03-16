@@ -89,15 +89,11 @@ public class Alarm {
 
 		public static void main(String[] args) {
 
-	String message = "Temperature too high";
-
+			String message = "Temperature too high";
 			Alarm alarm = new Alarm(message);
+			System.out.println(" === test alarm report when alarm not active ===");
 
-			
-
-		System.out.println(" === test alarm report when alarm not active ===");
-
-	String report = alarm.getReport();
+		String report = alarm.getReport();
 
 	if (!report.equals("Alarm inactive"))
 
@@ -144,6 +140,6 @@ public class Alarm {
 
 	}
 
-    }    
+}   
 
 }
