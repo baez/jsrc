@@ -1,10 +1,9 @@
 package KTr;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
-import src.guitarstore.*;;
+import src.guitarstore.*;
 
 public class InventoryTest
 {

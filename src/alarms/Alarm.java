@@ -12,7 +12,8 @@ We need to implement two features
 2 - create a report from the alarm 
 
 3 - if the alarm is snoozing then it should create the report in all caps
-
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 */
 
 public class Alarm {
