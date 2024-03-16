@@ -1,4 +1,4 @@
-package src.guitarstore;
+package projects.inventory.guitarstore;
 
 public class Inventory
 {

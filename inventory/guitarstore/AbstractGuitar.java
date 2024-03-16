@@ -1,4 +1,4 @@
-package src.guitarstore;
+package projects.inventory.guitarstore;
 
 public abstract class AbstractGuitar implements IInventoryItem {
     protected String name;

@@ -1,5 +1,14 @@
-package src.guitarstore;
+package projects.inventory.guitarstore;
 
+
+/*
+ * C:\bekari\__code\jsrc\projects\inventory\guitarstore>java projects.inventory.guitarstore.InventoryApp
+test
+Average of d1 and d2 is 17.27150
+====================
+ * 
+ * 
+ */
 public class InventoryApp {
     public static void main(String[] args)
     {
