@@ -1,4 +1,5 @@
-package src;
+package src.guitarstore;
+
 public class Inventory
 {
     private int count;

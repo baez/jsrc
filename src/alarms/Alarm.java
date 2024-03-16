@@ -1,7 +1,7 @@
 
 // ==== Alarm.java ====
 
-import java.time.LocalDateTime;
+// import java.time.LocalDateTime;
 
 /*
 
@@ -20,8 +20,6 @@ public class Alarm {
     protected boolean active;
 
     protected String message;
-
-    private LocalDateTime snoozeUntil;
 
 	private boolean isSnoozing;
 
@@ -51,7 +49,7 @@ public class Alarm {
 
 	{
 
-	this.snoozeUntil = LocalDateTime.now().plusMinutes(5);
+	// this.snoozeUntil = LocalDateTime.now().plusMinutes(5);
 
 	this.isSnoozing = true;
 

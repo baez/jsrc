@@ -1,4 +1,4 @@
-package src;
+package src.guitarstore;
 
 public class InventoryApp {
     public static void main(String[] args)

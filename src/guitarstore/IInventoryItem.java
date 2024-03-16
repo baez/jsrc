@@ -1,4 +1,4 @@
-package src;
+package src.guitarstore;
 
 public interface IInventoryItem
 {
