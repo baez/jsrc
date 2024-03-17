@@ -57,7 +57,7 @@ public class TestApp {
             }
             else
             {
-                throw new Exception(":/ hhh   errrrr");
+                throw new Exception(":/ no? errrrr :]");
             }
         }
         catch(Exception e)
@@ -72,7 +72,6 @@ public class TestApp {
     {
         return false;
     }
-
 }
 
 /* 

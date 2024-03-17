@@ -1,7 +1,8 @@
-package KTr;
+package projects.KTr;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
+
 // C:\bekari\__code\jsrc\inventory\lib
 public class ArrayTest {
     @Test
