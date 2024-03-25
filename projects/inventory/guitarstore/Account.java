@@ -58,5 +58,4 @@ public class Account {
     {
         return this.accountNumber;
     }
-
 }
