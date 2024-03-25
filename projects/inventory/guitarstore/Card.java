@@ -8,5 +8,15 @@ public class Card {
     {
         this.face = face;
         this.suit = suit;
-    }   
+    }
+    
+    public String getFace()
+    {
+        return this.face;
+    }
+
+    public String getSuit()
+    {
+        return this.suit;
+    }
 }
