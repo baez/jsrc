@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<accounts>
+    <account>
+        <accountNumber>923456179</accountNumber>
+        <firstName>Bob</firstName>
+        <lastName>Marley</lastName>
+        <balance>24.98</balance>
+    </account>
+    <account>
+        <accountNumber>459256170</accountNumber>
+        <firstName>Jon</firstName>
+        <lastName>Red</lastName>
+        <balance>35.25</balance>
+    </account>
+</accounts>
