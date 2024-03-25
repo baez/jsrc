@@ -1,7 +1,5 @@
 package projects.inventory.guitarstore;
 
-import javax.management.InvalidAttributeValueException;
-
 public class Account {
     private String firstName;
     private int accountNumber;
@@ -40,4 +38,25 @@ public class Account {
     {
         this.firstName = firstName;
     }
+
+    public String getLastName()
+    {
+        return lastName;
+    }
+
+    public void setLastName(String lastName)
+    {
+        this.lastName = lastName;
+    }
+
+    public double getBalance()
+    {
+        return this.balance;
+    }
+
+    public int getAccountNumber()
+    {
+        return this.accountNumber;
+    }
+
 }
