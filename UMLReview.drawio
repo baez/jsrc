@@ -1,0 +1,284 @@
+<mxfile host="app.diagrams.net" modified="2024-04-06T21:39:58.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="rz_65ydD8tIIhM0fqeRA" version="24.2.2" type="device">
+  <diagram name="Page-1" id="mIdqllo2_Rp58EtFCBo7">
+    <mxGraphModel dx="1556" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ztl-WG-k0NMjig686mCI-3" value="&amp;laquo;interface&amp;raquo;&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="547" y="174" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-4" value="Child" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-4">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-4">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-7" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-4">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-8" value="Parent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-9" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-8">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-8">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-8">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-12" value="&lt;b&gt;Inheritance&lt;br&gt;When a class inherits from a super (parent) class&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="101" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-13" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ztl-WG-k0NMjig686mCI-4" target="Ztl-WG-k0NMjig686mCI-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="440" as="sourcePoint" />
+            <mxPoint x="250" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-15" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="522" y="350" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-16" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-15">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-15">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-18" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-15">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ztl-WG-k0NMjig686mCI-15" target="Ztl-WG-k0NMjig686mCI-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="462" y="460" as="sourcePoint" />
+            <mxPoint x="322" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-24" value="&lt;b&gt;Implements&lt;br&gt;When a class implements an Interface&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="547" y="110" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-25" value="Flight" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="626" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-25">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-29" value="Plane" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="578" y="620" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-29">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-33" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="639" as="sourcePoint" />
+            <mxPoint x="576" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-34" value="0..*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Ztl-WG-k0NMjig686mCI-33">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-35" value="0..1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="Ztl-WG-k0NMjig686mCI-33">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-36" value="AssignedFlights" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="638" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-37" value="AssignedPlane" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="638" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-38" value="Associations&lt;br&gt;&lt;br&gt;&lt;div&gt;A linkage between two classes. &lt;br&gt;Bi-directional association is used when both sides are aware of each other and play a role for the other party.&lt;/div&gt;&lt;div&gt;No arrows exist between the two classes.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="158" y="520" width="600" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-39" value="Implement the flight class in Java&amp;nbsp;&lt;div&gt;Write the public fields and the constructor&lt;br&gt;Write the method signatures for all public methods&lt;br&gt;E.g.&amp;nbsp;&lt;br&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;Diagram&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;+ method(type a, type b, ...): returnType&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;Java code:&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;public returnType method(type a, type b, ...) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="135" y="810" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-40" value="Flight" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1000" width="277" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-41" value="+ flightNumber: Integer&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="26" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-49" value="+ departureDate: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="52" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-51" value="+ departureAirport: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="78" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-50" value="+ arrivalAirport: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="104" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-48" value="+ isOnTime: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="130" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="156" width="277" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-53" value="+ Flight(type ..)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="164" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-54" value="+ setPlane(Plane)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="190" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-43" value="+ setIsOnTime(Boolean): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-40">
+          <mxGeometry y="216" width="277" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-44" value="Plane" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437" y="1000" width="368" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-57" value="+ Plane(String airPlaneType, String airPlaneId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-44">
+          <mxGeometry y="26" width="368" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-45" value="+ getPlaneId(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-44">
+          <mxGeometry y="52" width="368" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-46" value="+ getPlaneType(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-44">
+          <mxGeometry y="78" width="368" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-58" value="Object Creation Principle: Make sure object creation is valid and consistent with requirements" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="144" y="54" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-59" value="Inheritance Example:&lt;div&gt;Consider types of bank accounts: Checking Account and Savings Account&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;Saving Account has interest percentage. Needs to process interest.&lt;/div&gt;&lt;div&gt;Checking Account has check processing. Needs to handle insufficient funds.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Complete the diagram and write the Java code.&lt;br&gt;Implement constructors, public fields and public method signatures.&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="1325" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-60" value="BankAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1490" width="160" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-75" value="+ ownerId: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-60">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-76" value="+ accountNumber: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-60">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-61" value="+ balance: Amount" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-60">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-62" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-60">
+          <mxGeometry y="104" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-74" value="+ deposit(Amount)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-60">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-63" value="+ withdrawal(Amount)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-60">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-64" value="CheckingAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1750" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-65" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-64">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-64">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-67" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-64">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-68" value="SavingsAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371.5" y="1749" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-69" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-68">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-70" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-68">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-71" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-68">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-72" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ztl-WG-k0NMjig686mCI-68" target="Ztl-WG-k0NMjig686mCI-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="1570" as="sourcePoint" />
+            <mxPoint x="760" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-73" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.258;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ztl-WG-k0NMjig686mCI-64" target="Ztl-WG-k0NMjig686mCI-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="422" y="1680" as="sourcePoint" />
+            <mxPoint x="309" y="1596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-77" value="OverdrawnAccountsReport" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1988" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-78" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-77">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-79" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-77">
+          <mxGeometry y="52" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-80" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-77">
+          <mxGeometry y="60" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-81" value="&lt;b&gt;We need an Overdrawn report which reports all checking accounts&lt;br&gt;that are overdrawn and need to reported to apply Insufficient Fund fees.&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1920" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-86" value="CheckingAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1989" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-87" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-86">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-88" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-86">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-89" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-86">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-90" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ztl-WG-k0NMjig686mCI-93">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="318" y="750" as="sourcePoint" />
+            <mxPoint x="558" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-91" value="Flight" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="736" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-92" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-91">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-93" value="Plane" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="579" y="732" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-94" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ztl-WG-k0NMjig686mCI-93">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-99" value="AssignedPlane" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="478" y="748" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-100" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="718" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-101" value="Uni-directional association when only one side plays a role for the other party.&lt;br&gt;There is an arrow on one side pointing towards the class that plays a role." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="158" y="683" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-103" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ztl-WG-k0NMjig686mCI-78" target="Ztl-WG-k0NMjig686mCI-87">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="318" y="2042.5" as="sourcePoint" />
+            <mxPoint x="478" y="2042.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-104" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2028" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-105" value="overdrawnAccounts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1994" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-106" value="Uni-directional association when there is an arrow on one side" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="1890" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztl-WG-k0NMjig686mCI-107" value="Class Diagrams and Relationships" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;labelBorderColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="131.5" y="18" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
