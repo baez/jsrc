@@ -3,28 +3,47 @@ package projects.inventory.guitarstore;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import projects.UMLReview.*;
+
 // Need to add CLASSPATH environment variable and set it to the starting folder of your Java package 
 // Instructor's preferred email: george.bekari@gmail.com
 public class TestApp {
     public static void main(String[] args)
     {
-        System.out.println("test");
-        try {
+        System.out.println("=== Start test ===");
+
+        var ia = new TestApp();
+
+        /*  try {
 
         var ia = new TestApp();
         
         // ia.testDeclareAndInitializeArray();
         // ia.testExcxeptionHandling();
-        ia.testExcxeptionHandlingWhenWeThrowException();
+        /* ia.testExcxeptionHandlingWhenWeThrowException();
         ia.testCallingAFunctionthatThrows();
         }
         catch(Exception e)
         {
             System.out.println(" ==== the App threw an exception! ==== ");
             System.out.println(e.getMessage());
-        }
+        } */
 
         System.out.println(" ==== this is the end of my program! ==== ");
+    }
+
+    public void TestWaterTemratureControllerConstructorTest(boolean isRunV1) 
+    {
+        WaterTemperatureDeviceDriver waterTemperatureDeviceDriver = null;
+        if (isRunV1) {
+            waterTemperatureDeviceDriver = new WaterTemperatureDeviceDriverV1();    
+        }
+        else {
+            waterTemperatureDeviceDriver = new WaterTemperatureDeviceDriverV2();
+        }
+        
+        WaterTemperatureReader waterTempratureReader = new AmbientTemperatureReaderDriver();
+        var waterTemperatureController = new WaterTemperatureController(waterTemperatureDeviceDriver, waterTempratureReader);
     }
 
     public void testDeclareAndInitializeArray()
