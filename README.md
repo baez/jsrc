@@ -14,8 +14,8 @@ It was designed to help developers and learners understand and implement OOP con
 ## Contribution
 Contributions are welcome! Feel free to fork the repository, create feature branches, and submit pull requests. If you find issues or areas for improvement, please open an issue.
 
-## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it as per your needs.
+## 📜 License  
+This project is licensed under **Apache 2.0 License**.
 
 ## Contact
 For any questions or discussions, feel free to reach out via GitHub Issues or submit a pull request!
